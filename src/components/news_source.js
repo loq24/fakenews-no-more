@@ -5,7 +5,7 @@ import RenderNews from './render_news';
 import { Link } from 'react-router-dom';
 
 class NewsSource extends Component{
-	componentWillMount(){
+	componentDidMount(){
 		const { id } = this.props.match.params;
 		this.props.searchNewsBySource(id);
 	}
