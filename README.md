@@ -5,8 +5,8 @@ A React+Redux application with NewsAPI
 
 ## Installation
 ```
-> git clone https://github.com/loq24/react-router-redux-form.git
-> cd react-router-redux-form
+> git clone https://github.com/loq24/fakenews-no-more.git
+> cd fakenews-no-more
 > npm install
 > npm start
 > Access http://localhost:3000/
