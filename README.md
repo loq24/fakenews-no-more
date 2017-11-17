@@ -7,7 +7,7 @@ A ReactJS+Redux application with NewsAPI. Make sure to obtain your own API KEY [
 
 **For the live preview go to my [heroku app](https://fakenews-no-more.herokuapp.com/).**
 
-## Installation
+### Installation
 ```sh
 git clone https://github.com/loq24/fakenews-no-more.git
 cd fakenews-no-more
