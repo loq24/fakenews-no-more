@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const APIKEY = '?apiKey=abe024f04eae469f86ca8152cbdc2426';
+const APIKEY = '?apiKey=1727263e073943da83652750e88af4be';
 const LANGUAGE = '&language=en';
-const ROOTURL_TH = `http://beta.newsapi.org/v2/top-headlines${APIKEY}`;
-const ROOTURL_EVERYTHING = `http://beta.newsapi.org/v2/everything${APIKEY}&sortBy=popularity`;
+const ROOTURL_TH = `https://newsapi.org/v2/top-headlines${APIKEY}`;
+const ROOTURL_EVERYTHING = `https://newsapi.org/v2/everything${APIKEY}&sortBy=popularity`;
 
 export const FETCH_NEWS = 'FETCH_NEWS';
 export const SEARCH_NEWS = 'SEARCH_NEWS';
