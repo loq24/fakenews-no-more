@@ -13,7 +13,7 @@ export default class RenderNews extends Component {
 				    <div className="media-left">
 				     { article.urlToImage &&
 				      <figure className="image is-custom-size">
-				        <img src={article.urlToImage} alt={article.title} />
+				        <img src={article.urlToImage.replace("http://", "//")} alt={article.title} />
 				      </figure>
 				  	}
 				    </div>
